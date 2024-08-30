@@ -16,11 +16,11 @@ int main(){
      int sum = item[0]+item[1]+item[2];
      printf("sum is : %d\n", sum);
 
-     float final_price =sum*0.05;
-     printf("final price is : %f\n", final_price);
+     float GST =sum*0.10;
+     printf("GST is : %f\n", GST );
 
-     int total = sum + final_price;
-     printf("total is : %d", total);
+     int final_price = sum + GST ;
+     printf("final price is : %d", final_price);
 
 return 0;
 }
